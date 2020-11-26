@@ -1,0 +1,66 @@
+body{
+    width: 100%;
+    margin: 0%;
+}
+.head{
+    background: url("../img/567310_view-from-the-google-offices-in-downtown-tokyo-mac-wallpapers_2560x1600_h.jpg") center / cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.head h1{
+    position: absolute;
+    font-size: 40px;
+    color: red;
+    margin-top: 0%;
+    top: 20px;
+    left: 30px;
+}
+.inline{
+    display: inline-flex;
+    position: absolute;
+    left: 50%;
+}
+.inline li{
+    list-style: none;
+    color: black;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.inline a{
+    text-decoration: none;
+}
+.header i{
+    position: absolute;
+    left: 84%;
+    top: 30px;
+    font-size: 20px;
+}
+.text h1{
+    color: white;
+    font-size: 30px;
+    margin-top: 450px;
+    margin-right: 20px;
+    padding: 0 100px;
+}
+.text p{
+    font-size: 30px;
+    color: white;
+    padding: 0 130px;
+    margin-top: 500px;
+    margin-right: 50px;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 200px;
+    grid-gap: 10px;
+}
+.harry{
+    background:url("../img/EMO_WizardsUnite_01.jpg");
+    background-attachment: fixed;
+    background-position: center / cover;
+    grid-column: 1 / 4;
+    grid-row: 1 / 3;
+}
